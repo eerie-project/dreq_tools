@@ -1,0 +1,36 @@
+{
+    "Header": {
+        "data_specs_version": "",
+        "cmor_version": "",
+        "table_id": "Table TSday",
+        "realm": "",
+        "table_date": "08 May 2023",
+        "missing_value": "1e20",
+        "int_missing_value": "-999",
+        "product": "model-output",
+        "approx_interval": "",
+        "generic_levels": "",
+        "mip_era": "",
+        "Conventions": "EERIE-DMP UGRID CF-1.7 CMIP-6.2"
+    },
+    "variable_entry": {
+        "wa": {
+            "frequency": "day",
+            "modeling_realm": "atmos",
+            "standard_name": "upward_air_velocity",
+            "units": "m s-1",
+            "cell_methods": "time: mean",
+            "cell_measures": "area: areacello",
+            "long_name": "Upward Air Velocity",
+            "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+            "dimensions": "longitude latitude plev23 time",
+            "out_name": "wa",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        }
+    }
+}

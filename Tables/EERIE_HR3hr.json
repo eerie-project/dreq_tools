@@ -1,0 +1,72 @@
+{
+    "Header": {
+        "data_specs_version": "",
+        "cmor_version": "",
+        "table_id": "Table HR3hr",
+        "realm": "",
+        "table_date": "08 May 2023",
+        "missing_value": "1e20",
+        "int_missing_value": "-999",
+        "product": "model-output",
+        "approx_interval": "",
+        "generic_levels": "",
+        "mip_era": "",
+        "Conventions": "EERIE-DMP UGRID CF-1.7 CMIP-6.2"
+    },
+    "variable_entry": {
+        "sfcWind": {
+            "frequency": "3hr",
+            "modeling_realm": "atmos",
+            "standard_name": "wind_speed",
+            "units": "m s-1",
+            "cell_methods": "time: mean",
+            "cell_measures": "",
+            "long_name": "Near-Surface Wind Speed",
+            "comment": "This is the mean of the speed, not the speed computed from the mean u and v components of wind",
+            "dimensions": "longitude latitude height10m time",
+            "out_name": "sfcWind",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "evspsbl": {
+            "frequency": "3hr",
+            "modeling_realm": "atmos",
+            "standard_name": "water_evaporation_flux",
+            "units": "kg m-2 s-1",
+            "cell_methods": "time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "Evaporation",
+            "comment": "at surface; flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)",
+            "dimensions": "longitude latitude time",
+            "out_name": "evspsbl",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "sfcWindmax": {
+            "frequency": "3hr",
+            "modeling_realm": "atmos",
+            "standard_name": "wind_speed",
+            "units": "m s-1",
+            "cell_methods": "time: maximum",
+            "cell_measures": "",
+            "long_name": "Near-Surface Wind Speed",
+            "comment": "This is the mean of the speed, not the speed computed from the mean u and v components of wind",
+            "dimensions": "longitude latitude height10m time",
+            "out_name": "sfcWindmax",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        }
+    }
+}

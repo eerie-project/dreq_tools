@@ -1,0 +1,72 @@
+{
+    "Header": {
+        "data_specs_version": "",
+        "cmor_version": "",
+        "table_id": "Table 6hrPlev",
+        "realm": "",
+        "table_date": "08 May 2023",
+        "missing_value": "1e20",
+        "int_missing_value": "-999",
+        "product": "model-output",
+        "approx_interval": "",
+        "generic_levels": "",
+        "mip_era": "",
+        "Conventions": "EERIE-DMP UGRID CF-1.7 CMIP-6.2"
+    },
+    "variable_entry": {
+        "psl": {
+            "frequency": "6hr",
+            "modeling_realm": "atmos",
+            "standard_name": "air_pressure_at_sea_level",
+            "units": "Pa",
+            "cell_methods": "area: time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "Sea Level Pressure",
+            "comment": "",
+            "dimensions": "longitude latitude time",
+            "out_name": "psl",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "wap4": {
+            "frequency": "6hr",
+            "modeling_realm": "atmos",
+            "standard_name": "lagrangian_tendency_of_air_pressure",
+            "units": "Pa s-1",
+            "cell_methods": "area: time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "omega (=dp/dt)",
+            "comment": "plev_4",
+            "dimensions": "longitude latitude plev4 time",
+            "out_name": "wap4",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "hus4": {
+            "frequency": "6hr",
+            "modeling_realm": "atmos",
+            "standard_name": "specific_humidity",
+            "units": "1.0",
+            "cell_methods": "area: time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "Specific Humidity",
+            "comment": "plev_4",
+            "dimensions": "longitude latitude plev4 time",
+            "out_name": "hus4",
+            "type": "",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        }
+    }
+}
