@@ -1,0 +1,54 @@
+{
+    "Header": {
+        "data_specs_version": "",
+        "cmor_version": "",
+        "table_id": "Table TS3hrPt",
+        "realm": "",
+        "table_date": "08 May 2023",
+        "missing_value": "1e20",
+        "int_missing_value": "-999",
+        "product": "model-output",
+        "approx_interval": "",
+        "generic_levels": "",
+        "mip_era": "",
+        "Conventions": "EERIE-DMP UGRID CF-1.7 CMIP-6.2"
+    },
+    "variable_entry": {
+        "vortmean": {
+            "frequency": "3hr",
+            "modeling_realm": "atmos",
+            "standard_name": "atmosphere_relative_vorticity",
+            "units": "s-1",
+            "cell_methods": "time: point",
+            "cell_measures": "area: areacella",
+            "long_name": "vorticity_mean_850_700",
+            "comment": "Mean vorticity over 850,700,600 hPa",
+            "dimensions": "longitude latitude plev7h time1",
+            "out_name": "vortmean",
+            "type": "",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "zg7h": {
+            "frequency": "3hr",
+            "modeling_realm": "atmos",
+            "standard_name": "geopotential_height",
+            "units": "m",
+            "cell_methods": "time: point",
+            "cell_measures": "area: areacella",
+            "long_name": "Geopotential Height",
+            "comment": "Geopotential height",
+            "dimensions": "longitude latitude plev7h time1",
+            "out_name": "zg7h",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        }
+    }
+}
