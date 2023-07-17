@@ -9113,6 +9113,30 @@
                     "none"
                 ]
             },
+            "eerie-piControl":{
+                "activity_id":[
+                    "EERIE"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"pre-industrial control",
+                "experiment_id":"eerie-piControl",
+                "parent_activity_id":[
+                    "EERIE"
+                ],
+                "parent_experiment_id":[
+                    "none"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "piControl-cmip5":{
                 "activity_id":[
                     "CMIP"
@@ -10593,7 +10617,7 @@
                 "sub_experiment_id":[
                     "none"
                 ]
-            },
+            }
         },
         "product":[
             "model-output"
