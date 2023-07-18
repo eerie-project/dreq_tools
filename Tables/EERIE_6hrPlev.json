@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "",
+        "data_specs_version": "01.00.00",
         "cmor_version": "",
         "table_id": "Table 6hrPlev",
         "realm": "",
@@ -11,7 +11,7 @@
         "approx_interval": "0.250000",
         "generic_levels": "",
         "mip_era": "EERIE",
-        "Conventions": "EERIE-DMP UGRID CF-1.7 CMIP-6.2"
+        "Conventions": "CF-1.7 CMIP-6.2 UGRID-1.0"
     },
     "variable_entry": {
         "psl": {
