@@ -9186,6 +9186,30 @@
                     "none"
                 ]
             },
+            "eerie-piControl-spinup":{
+                "activity_id":[
+                    "EERIE"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"pre-industrial control (spin-up)",
+                "experiment_id":"eerie-piControl-spinup",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "piControl-cmip5":{
                 "activity_id":[
                     "CMIP"
