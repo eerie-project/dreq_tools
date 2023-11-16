@@ -1642,6 +1642,19 @@
                 "source_id":"ICON-ESM-LR",
                 "source":"ICON-ESM-LR (2017): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A (icosahedral/triangles; 160 km; 47 levels; top level 80 km)\natmosChem: none\nland: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles; 40 km; 40 levels; top grid cell 0-12 m)\nocnBgchem: HAMOCC\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
+            "ICON-ESM-ER":{
+                "activity_participation":[
+                    "EERIE"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MPI-M"
+                ],
+                "source_id":"ICON-ESM-ER",
+                "source":"ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\nland: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles; 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+            },
             "IITM-ESM":{
                 "activity_participation":[
                     "CMIP",
@@ -3957,6 +3970,28 @@
                 ],
                 "parent_experiment_id":[
                     "spinup-1950"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "eerie-control-1950":{
+                "activity_id":[
+                    "EERIE"
+                ],
+                "additional_allowed_model_components":[
+                    "AER"
+                ],
+                "experiment":"coupled control with fixed 1950's forcing (HighResMIP equivalent of pre-industrial control)",
+                "experiment_id":"control-1950",
+                "parent_activity_id":[
+                    "EERIE"
+                ],
+                "parent_experiment_id":[
+                    "eerie-spinup-1950"
                 ],
                 "required_model_components":[
                     "AOGCM"
@@ -9597,6 +9632,28 @@
                 ],
                 "experiment":"coupled spinup with fixed 1950s forcings from 1950 initial conditions (with ocean at rest) to provide initial condition for control-1950 and hist-1950",
                 "experiment_id":"spinup-1950",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "eerie-spinup-1950":{
+                "activity_id":[
+                    "EERIE"
+                ],
+                "additional_allowed_model_components":[
+                    "AER"
+                ],
+                "experiment":"coupled spinup with fixed 1950s forcings from 1950 initial conditions (with ocean at rest) to provide initial condition for control-1950 and hist-1950",
+                "experiment_id":"eerie-spinup-1950",
                 "parent_activity_id":[
                     "no parent"
                 ],
