@@ -1644,7 +1644,7 @@
             },
             "ICON-ESM-ER":{
                 "activity_participation":[
-                    "EERIE"
+                    "EERIE","HighResMIP"
                 ],
                 "cohort":[
                     "Registered"
@@ -1655,6 +1655,20 @@
                 "source_id":"ICON-ESM-ER",
                 "source":"ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\nland: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles; 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
             },
+            "IFS-FESOM2-SR":{
+                "activity_participation":[
+                    "EERIE","HighResMIP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "AWI"
+                ],
+                "source_id":"IFS-FESOM2-SR",
+                "source":"IFS-FESOM2-SR (2023): \naerosol: none, prescribed MACv2-SP\natmos: IFS (IFS CY48R1, Tco1279, cubic octahedral reduced Gaussian grid; 137 levels)\natmosChem: none\nland: none\nlandIce: none/prescribed\nocean: FESOM2 (FESOM; 5 km; 70 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: none"
+            },
+
             "IITM-ESM":{
                 "activity_participation":[
                     "CMIP",
@@ -2742,7 +2756,7 @@
             "fx"
         ],
         "license":[
-            "^EERIE data produced by MOHC is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)$"
+            ".*"
         ],
         "mip_era":[
             "EERIE"
