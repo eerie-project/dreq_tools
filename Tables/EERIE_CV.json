@@ -31,6 +31,10 @@
             "variable_id",
             "variant_label"
         ],
+	"DRS":{
+	    "directory_path_template":"<mip_era>/<activity_id>/<institution_id>/<source_id>/<experiment_id>/<member_id>/<table_id>/<variable_id>/<grid_label>/<version>",
+	    "filename_template":"<variable_id>_<table_id>_<source_id>_<experiment_id >_<member_id>_<grid_label>[_<time_range>].nc"
+	},
         "version_metadata":{
             "CV_collection_modified":"Fri Feb 25 2022",
             "CV_collection_version":"EERIE v0.1",
@@ -42,7 +46,8 @@
         },
         "activity_id":{
             "EERIE": "European Eddy RIch Earth System Models",
-            "ScenarioMIP":"Scenario Model Intercomparison Project"
+            "ScenarioMIP":"Scenario Model Intercomparison Project",
+	    "HighResMIP":"High-Resolution Model Intercomparison Project"
         },
         "institution_id":{
             "AER":"Research and Climate Group, Atmospheric and Environmental Research, 131 Hartwell Avenue, Lexington, MA 02421, USA",
