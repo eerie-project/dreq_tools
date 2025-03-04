@@ -31,6 +31,24 @@
             "valid_max": "",
             "ok_min_mean_abs": "",
             "ok_max_mean_abs": ""
+        },
+        "wa19": {
+            "frequency": "mon",
+            "modeling_realm": "atmos",
+            "standard_name": "upward_air_velocity",
+            "units": "m s-1",
+            "cell_methods": "area: time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "Upward Air Velocity",
+            "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+            "dimensions": "longitude latitude plev19 time",
+            "out_name": "wa",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
         }
     }
 }
