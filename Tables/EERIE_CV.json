@@ -5922,7 +5922,7 @@
                     "HighResMIP"
                 ],
                 "parent_experiment_id":[
-                    "spinup-1950"
+                    "eerie-control-1950"
                 ],
                 "required_model_components":[
                     "AOGCM"
