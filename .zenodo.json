@@ -2,7 +2,15 @@
   "title": "CMOR Tables for EERIE Output",
   "creators": [
     {
+      "name": "Savage, Nick",
+      "affiliation": "Met Office"
+    },
+    {
       "name": "Seddon, Jon",
+      "affiliation": "Met Office"
+    },
+    {
+      "name": "Robberts, Malcolm",
       "affiliation": "Met Office"
     },
     {
@@ -14,7 +22,7 @@
       "affiliation": "German Climate Computing Centre"
     },
   ],
-  "description": "This repository contains Intake catalogues for the EERIE data held at the analysis facilities (JASMIN and DKRZ). The `eerie.yaml` file is used to load all catalogue files into Intake. The `dkrz/` directory contains the Intake catalogue for data held by DKRZ in Intake YAML format, while the `jasmin/` directory contains the Intake catalogue for the initial Met Office data at JASMIN, created with intake-esm.",
+  "description": "This repository contains CMOR Tables for the standardization of EERIE data.",
   "license": "BSD-3-Clause",
   "keywords": [
     "EERIE",
