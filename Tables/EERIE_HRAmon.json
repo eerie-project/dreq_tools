@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "",
+        "data_specs_version": "01.00.00",
         "cmor_version": "",
         "table_id": "Table HRAmon",
         "realm": "",
@@ -8,10 +8,10 @@
         "missing_value": "1e20",
         "int_missing_value": "-999",
         "product": "model-output",
-        "approx_interval": "",
+        "approx_interval": "30.00",
         "generic_levels": "",
-        "mip_era": "",
-        "Conventions": "EERIE-DMP UGRID CF-1.7 CMIP-6.2"
+        "mip_era": "EERIE",
+        "Conventions": "CF-1.7 CMIP-6.2 UGRID-1.0"
     },
     "variable_entry": {
         "wa": {
@@ -24,6 +24,24 @@
             "long_name": "Upward Air Velocity",
             "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
             "dimensions": "longitude latitude alevel time",
+            "out_name": "wa",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "wa19": {
+            "frequency": "mon",
+            "modeling_realm": "atmos",
+            "standard_name": "upward_air_velocity",
+            "units": "m s-1",
+            "cell_methods": "area: time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "Upward Air Velocity",
+            "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+            "dimensions": "longitude latitude plev19 time",
             "out_name": "wa",
             "type": "real",
             "positive": "",

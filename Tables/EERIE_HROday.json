@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "",
+        "data_specs_version": "01.00.00",
         "cmor_version": "",
         "table_id": "Table HROday",
         "realm": "",
@@ -8,10 +8,10 @@
         "missing_value": "1e20",
         "int_missing_value": "-999",
         "product": "model-output",
-        "approx_interval": "",
+        "approx_interval": "1.00000",
         "generic_levels": "",
-        "mip_era": "",
-        "Conventions": "EERIE-DMP UGRID CF-1.7 CMIP-6.2"
+        "mip_era": "EERIE",
+        "Conventions": "CF-1.7 CMIP-6.2 UGRID-1.0"
     },
     "variable_entry": {
         "zos": {
@@ -59,7 +59,7 @@
             "cell_measures": "--OPT",
             "long_name": "Sea Water X Velocity",
             "comment": "On 5 ocean levels",
-            "dimensions": "longitude latitude olevel5 time",
+            "dimensions": "longitude latitude olevel time",
             "out_name": "uo",
             "type": "real",
             "positive": "",
@@ -77,7 +77,7 @@
             "cell_measures": "--OPT",
             "long_name": "Sea Water Y Velocity",
             "comment": "on 5 ocean levels",
-            "dimensions": "longitude latitude olevel5 time",
+            "dimensions": "longitude latitude olevel time",
             "out_name": "vo",
             "type": "real",
             "positive": "",
@@ -167,7 +167,7 @@
             "cell_measures": "area: areacello volume: volcello",
             "long_name": "Sea Water Potential Temperature",
             "comment": "on 5 ocean levels",
-            "dimensions": "longitude latitude olevel5 time",
+            "dimensions": "longitude latitude olevel time",
             "out_name": "thetao",
             "type": "real",
             "positive": "",
@@ -185,7 +185,7 @@
             "cell_measures": "area: areacello volume: volcello",
             "long_name": "Sea Water Salinity",
             "comment": "on 5 ocean levels",
-            "dimensions": "longitude latitude olevel5 time",
+            "dimensions": "longitude latitude olevel time",
             "out_name": "so",
             "type": "real",
             "positive": "",
@@ -239,7 +239,7 @@
             "cell_measures": "area: areacello",
             "long_name": "W",
             "comment": "on 5 ocean levels",
-            "dimensions": "longitude latitude olevel5 time",
+            "dimensions": "longitude latitude olevel time",
             "out_name": "wo",
             "type": "real",
             "positive": "",
