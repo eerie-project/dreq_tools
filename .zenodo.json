@@ -20,7 +20,7 @@
     {
       "name": "Wickramage, Chathurika",
       "affiliation": "German Climate Computing Centre"
-    },
+    }
   ],
   "description": "This repository contains CMOR Tables for the standardization of EERIE data.",
   "license": "BSD-3-Clause",
