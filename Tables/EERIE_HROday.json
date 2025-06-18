@@ -122,17 +122,17 @@
             "ok_min_mean_abs": "",
             "ok_max_mean_abs": ""
         },
-        "rsdo": {
+        "rsntds": {
             "frequency": "day",
             "modeling_realm": "ocean",
-            "standard_name": "downwelling_shortwave_flux_in_seawater",
+            "standard_name": "net_downward_shortwave_flux_at_sea_water_surface",
             "units": "W m-2",
             "cell_methods": "area: mean where sea time: mean",
             "cell_measures": "area: areacello",
-            "long_name": "Downwelling shortwave flux at sea surface",
-            "comment": "",
+            "long_name": "Net Downward Shortwave Radiation at Sea Water Surface",
+            "comment": "This is the flux into the surface of liquid sea water only. This excludes shortwave flux absorbed by sea ice, but includes any light that passes through the ice and is absorbed by the ocean.",
             "dimensions": "longitude latitude time",
-            "out_name": "rsdo",
+            "out_name": "rsntds",
             "type": "real",
             "positive": "down",
             "valid_min": "",
