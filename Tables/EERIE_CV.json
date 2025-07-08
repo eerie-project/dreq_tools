@@ -5777,6 +5777,28 @@
                     "none"
                 ]
             },
+            "highres-future-ssp245":{
+                "activity_id":[
+                    "HighResMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER"
+                ],
+                "experiment":"coupled future 2015-2050 using a scenario as close to CMIP6 ssp245 as possible",
+                "experiment_id":"highres-future-ssp245",
+                "parent_activity_id":[
+                    "HighResMIP"
+                ],
+                "parent_experiment_id":[
+                    "hist-1950"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },		
             "highresSST-4xCO2":{
                 "activity_id":[
                     "HighResMIP"
