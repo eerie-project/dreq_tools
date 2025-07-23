@@ -122,7 +122,7 @@
             "ok_min_mean_abs": "",
             "ok_max_mean_abs": ""
         },
-        "rsdo": {
+        "rsntds": {
             "frequency": "day",
             "modeling_realm": "ocean",
             "standard_name": "downwelling_shortwave_flux_in_seawater",
