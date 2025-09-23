@@ -166,7 +166,7 @@
             "cell_methods": "time: mean",
             "cell_measures": "area: areacella",
             "long_name": "Precipitation",
-            "comment": "at surface; includes both liquid and solid phases.  This is the 3-hour mean precipitation flux.",
+            "comment": "at surface; includes both liquid and solid phases.",
             "dimensions": "longitude latitude time",
             "out_name": "pr",
             "type": "real",
