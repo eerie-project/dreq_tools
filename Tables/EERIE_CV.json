@@ -1580,6 +1580,19 @@
                 "source_id":"HadGEM3-GC5-EERIE-N96-ORCA1",
                 "source":"HadGEM3-GC5-EERIE-N96-ORCA1 (2023): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA9.0-EERIE (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GA9.0-EERIE\nlandIce: none\nocean: NEMO-HadGEM3-GO9.0-EERIE (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: SI3-HadGEM3-GSI9.0-EERIE (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude)"
             },
+            "HadGEM3-GC5E-LL":{
+                "activity_participation":[
+                    "EERIE"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC5E-LL",
+                "source":"HadGEM3-GC5E-LL (2024)"
+            },
             "HadGEM3-GC5-EERIE-N216-ORCA025":{
                 "activity_participation":[
                     "EERIE"
@@ -1593,6 +1606,19 @@
                 "source_id":"HadGEM3-GC5-EERIE-N216-ORCA025",
                 "source":"HadGEM3-GC5-EERIE-N216-ORCA025 (2023): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA9.0-EERIE (N216; 432 x 324 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GA9.0-EERIE\nlandIce: none\nocean: NEMO-HadGEM3-GO9.0-EERIE (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: SI3-HadGEM3-GSI9.0-EERIE (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude)"
             },
+            "HadGEM3-GC5E-MM":{
+                "activity_participation":[
+                    "EERIE"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC5E-MM",
+                "source":"HadGEM3-GC5E-MM (2024)"
+            },
             "HadGEM3-GC5-EERIE-N640-ORCA12":{
                 "activity_participation":[
                     "EERIE"
@@ -1605,6 +1631,19 @@
                 ],
                 "source_id":"HadGEM3-GC5-EERIE-N640-ORCA12",
                 "source":"HadGEM3-GC5-EERIE-N640-ORCA12 (2023): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA9.0-EERIE (N640; 1280 x 960 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GA9.0-EERIE\nlandIce: none\nocean: NEMO-HadGEM3-GO9.0-EERIE (eORCA12 tripolar primarily 1/12 deg; 4320 x 3604 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: SI3-HadGEM3-GSI9.0-EERIE (eORCA12 tripolar primarily 1/12 deg; 4320 x 3604 longitude/latitude)"
+            },
+            "HadGEM3-GC5E-HH":{
+                "activity_participation":[
+                    "EERIE"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC5E-HH",
+                "source":"HadGEM3-GC5E-HH (2024)"
             },
             "HiRAM-SIT-HR":{
                 "activity_participation":[
@@ -6671,7 +6710,7 @@
             },
             "historical":{
                 "activity_id":[
-                    "CMIP"
+                    "EERIE"
                 ],
                 "additional_allowed_model_components":[
                     "AER",
@@ -6681,8 +6720,7 @@
                 "experiment":"all-forcing simulation of the recent past",
                 "experiment_id":"historical",
                 "parent_activity_id":[
-                    "CMIP",
-                    "PMIP"
+                    "EERIE"
                 ],
                 "parent_experiment_id":[
                     "piControl",
