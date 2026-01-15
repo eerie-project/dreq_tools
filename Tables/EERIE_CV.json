@@ -5931,6 +5931,50 @@
                     "none"
                 ]
             },
+            "highresSST-SmoothAnom":{
+                "activity_id":[
+                    "HighResMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER"
+                ],
+                "experiment":"Like highresSST-present but with smoothed SST anomalies",
+                "experiment_id":"highresSST-SmoothAnom",
+                "parent_activity_id":[
+                    "HighResMIP"
+                ],
+                "parent_experiment_id":[
+                    "highresSST-present"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "highresSST-SmoothClim":{
+                "activity_id":[
+                    "HighResMIP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER"
+                ],
+                "experiment":"Like highresSST-present but with smoothed SST climatology",
+                "experiment_id":"highresSST-SmoothClim",
+                "parent_activity_id":[
+                    "HighResMIP"
+                ],
+                "parent_experiment_id":[
+                    "highresSST-present"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "hist-1950":{
                 "activity_id":[
                     "HighResMIP"
